@@ -55,27 +55,27 @@ public class ShoeStoreService {
 		if (order.status != OrderStatus.SHOPPING_CART) return Order.ERROR_INVALID_ORDER_STATUS;
 		order.status = OrderStatus.CHECKED_OUT;
 		return 0;
-		//TODO: unfinished implementation
+		//IGNORE: unfinished implementation
 	}
 	
 	public long shipOrder(Order order) {
 		if (order.status != OrderStatus.CHECKED_OUT) return Order.ERROR_INVALID_ORDER_STATUS;
 		order.status = OrderStatus.SHIPPING;
-		//TODO: unfinished implementation
+		//IGNORE: unfinished implementation
 		return 0;
 	}
 	
 	public long completeOrder(Order order) {
 		if (order.status != OrderStatus.SHIPPING) return Order.ERROR_INVALID_ORDER_STATUS;
 		order.status = OrderStatus.CLOSED;
-		//TODO: unfinished implementation
+		//IGNORE: unfinished implementation
 		return 0;
 	}
 	
 	public List<OrderItem> cancelOrder(Order order) {
 		if (order.status != OrderStatus.SHOPPING_CART) return null;
 		order.status = OrderStatus.CANCELED;
-		//TODO: unfinished implementation
+		//IGNORE: unfinished implementation
 		return order.items;
 	}
 }

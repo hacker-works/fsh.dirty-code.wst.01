@@ -11,6 +11,7 @@ public class Order {
 	public List<OrderItem> items;
 	public OrderStatus status;
 	public long version = 0l;
+	public Double price = null;
 	
 	public Order(Shopper shopper) {
 		super();

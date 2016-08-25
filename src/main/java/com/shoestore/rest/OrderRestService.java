@@ -40,6 +40,13 @@ public class OrderRestService {
 		return new Order(new Shopper(shopperId));
 	}
 	
+	@GET
+	@Path("orders/{shopperId}")
+	public Double getTotalPrice(@PathParam("shopperId") long shopperId) {
+		//TODO: REST call should be implemented to return the total price of an order
+		return new Double(0);
+	}
+	
 	@PUT
 	@Path("orders/{shopperId}")
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -67,7 +74,7 @@ public class OrderRestService {
 	@Path("orders/{shopperId}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Order updateShoePair(@PathParam("shopperId") long shopperId, ShoePair shoePair) {
-		//TODO: to be implemented
+		//IGNORE: to be implemented
 		return null;
 	}
 	
@@ -75,7 +82,7 @@ public class OrderRestService {
 	@Path("orders/{shopperId}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Order removeShoePair(@PathParam("shopperId") long shopperId, ShoePair shoePair) {
-		//TODO: to be implemented
+		//IGNORE: to be implemented
 		return null;
 	}
 	

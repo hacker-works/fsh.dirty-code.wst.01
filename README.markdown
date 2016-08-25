@@ -28,7 +28,6 @@ Check the **setup instruction**, carefully read the **test objectives** below an
 
 #### 4. Start hacking! 
 
-
 > **WARNING:** What you're about to see is a very dirty and messy piece of code. This is intentionally prepared this way. This is not the hacker's way! We have a clean version of this code to prove it. 
 
 ## Test Objectives
@@ -40,14 +39,25 @@ The objective of this work sample test is to clean this dirty code:
 * identify and resolve design issues
 * resolve anything that you find wrong with this code 
 * **BIG** bonus points for adding tests
+* we expect from you to keep in touch during your work on the test sample and we will be happy to answer any questions you might have
+* pay attention to the comments in the code - you're not expected to work on the sections marked with *IGNORE*. On the other hand the sections marked with *TODO* are important part of the test
 
-Keep in mind, we're not imposing any restrictions on keeping the functionality, method interfaces, etc. 
+Keep in mind, we're not imposing any restrictions on keeping the functionality, method interfaces, dependencies, etc. Feel free to upgrade to Java 8 and update the project dependencies and configuration as you wish. 
 
-Be creative!
+Be creative! Take your times.
 
 ## How to submit your solution?
 
-Just create a [new pull request][github.pull] in GitHub and we'll let you know when we start reviewing your solution. 
+> **NOTE:** The work sample test is in a public repository! We kindly ask you to **DO NOT ATTEMPT** to create [pull request][github.pull] in GitHub or fork and publish your solution online! Please, take into consideration the other candidates!
+
+To submit your solution:
+
+1. Commit your changes to the git repository cloned locally on your machine.
+2. Prepare and archive of repository - either **zip** or **tar.gz**.
+3. Send your archive to [jobs@hacker.works][jobs-mailto].
+
+We'll let you know, as soon as we start reviewing your solution.
 
 [hacker.works]: http://hacker.works
 [github.pull]: https://github.com/hacker-works/fsh.dirty-code.wst.01/pulls
+[jobs-mailto]: mailto:jobs@hacker.works
