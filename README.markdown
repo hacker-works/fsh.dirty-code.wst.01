@@ -44,7 +44,7 @@ The objective of this work sample test is to clean this dirty code:
 
 Keep in mind, we're not imposing any restrictions on keeping the functionality, method interfaces, dependencies, etc. Feel free to upgrade to Java 8 and update the project dependencies and configuration as you wish. 
 
-Be creative! Take your times.
+Be creative! Take your time.
 
 ## How to submit your solution?
 
