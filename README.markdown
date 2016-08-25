@@ -1,10 +1,10 @@
 ## Intro
 
-Welcome to one of [hacker.works][hacker.works] work sample tests!
+Welcome to one of the [hacker.works][hacker.works] work sample tests!
 
 Our experience shows that the best predictor of whether you are going to perform at [hacker.works][hacker.works] is a work sample test. We give you a sample piece of work, similar to what you will do in the job and assess the results you produce.
 
-Chek the **setup instruction**, carefully read the **test objectives** below and good luck!
+Check the **setup instruction**, carefully read the **test objectives** below and good luck!
 
 ## Setup Instructions
 
@@ -29,7 +29,7 @@ Chek the **setup instruction**, carefully read the **test objectives** below and
 #### 4. Start hacking! 
 
 
-> **WARNING:** What you're about to see is a very dirty and messy piece of code. This is intentionally prepared this way. This is not the hacker's way! We have a clean version of this code to proove it. 
+> **WARNING:** What you're about to see is a very dirty and messy piece of code. This is intentionally prepared this way. This is not the hacker's way! We have a clean version of this code to prove it. 
 
 ## Test Objectives
 
