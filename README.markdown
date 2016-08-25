@@ -41,6 +41,10 @@ The objective of this work sample test is to clean this dirty code:
 * **BIG** bonus points for adding tests
 * we expect from you to keep in touch during your work on the test sample and we will be happy to answer any questions you might have
 * pay attention to the comments in the code - you're not expected to work on the sections marked with *IGNORE*. On the other hand the sections marked with *TODO* are important part of the test
+* we expect we would be able to run your solution and be able to execute the following REST calls: 
+  * GET - ```order/{shopper-id}``` to create/retriece an order for a shopper
+  * GET - ```order/{shopper-id}/price``` to get the total price of an order
+  * PUT - ```order/{shopper-id}``` to place a shoe pair to an order
 
 Keep in mind, we're not imposing any restrictions on keeping the functionality, method interfaces, dependencies, etc. Feel free to upgrade to Java 8 and update the project dependencies and configuration as you wish. 
 
